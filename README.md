@@ -8,6 +8,7 @@ This fork preserves full compatibility with the original API and overall structu
 ## Credits
 
 WindUI was originally created by **[Footagesus](https://github.com/Footagesus)**.
+and modded by **[Orial Dev](https://github.com/orialdev/)**
 
 Original repository:
 [https://github.com/Footagesus/WindUI](https://github.com/Footagesus/WindUI)
