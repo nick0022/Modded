@@ -1,6 +1,6 @@
-# WindUI Boreal
+# WindUI Shiny
 
-**WindUI Boreal** is a refined fork of the original **WindUI** UI library for Roblox, built specifically for Script Hubs and Luau environments.
+**WindUI Shiny** is a refined fork of the original **WindUI** UI library for Roblox, built specifically for Script Hubs and Luau environments.
 
 This fork preserves full compatibility with the original API and overall structure while introducing refinements, fixes, and visual improvements.
 
@@ -8,7 +8,6 @@ This fork preserves full compatibility with the original API and overall structu
 ## Credits
 
 WindUI was originally created by **[Footagesus](https://github.com/Footagesus)**.
-and modded by **[Orial Dev](https://github.com/orialdev/)**
 
 Original repository:
 [https://github.com/Footagesus/WindUI](https://github.com/Footagesus/WindUI)
@@ -16,12 +15,12 @@ Original repository:
 This fork would not exist without the original work and structure provided by **Footagesus**.
 Full credit for the base framework, architecture, and core systems belongs to the original author.
 
-# WindUI Boreal Documentation
+# WindUI Shiny Documentation
 
 ## Loader
 
 ```lua
-local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/nick0022/WindUi_Modded/refs/heads/main/WindUI%20Boreal"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/jonathabejose-alt/Wind-UI-Boreal/refs/heads/main/WindUI%20Boreal"))()
 ```
 
 ## Base Setup
@@ -29,11 +28,11 @@ local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/nick00
 All examples below assume this base setup:
 
 ```lua
-local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/orialdev/WindUI-Boreal/main/WindUI%20Boreal"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/jonathabejose-alt/Wind-UI-Boreal/refs/heads/main/WindUI%20Boreal"))()
 
 local Window = WindUI:CreateWindow({
     Title = "WindUI Docs Demo",
-    Author = "Boreal",
+    Author = "Shiny",
     Folder = "WindUI-Docs",
     Size = UDim2.fromOffset(620, 500),
     Icon = "sparkles",
@@ -570,7 +569,7 @@ local Window = WindUI:CreateWindow({
     Folder = "WindUI-Watermark",
     Watermark = {
         Enabled = true,
-        Text = "Boreal | v1.0.0",
+        Text = " | v1.0.0",
         Opacity = 0.45,
         Position = "bottom-right",
         Size = 14,
@@ -617,7 +616,7 @@ Preset `Position` strings:
 
 ```lua
 local WM = Window:Watermark({
-    Text = "Boreal | Build 240",
+    Text = "Shiny | Build 240",
     Position = "top-right",
     Opacity = 0.55,
     Size = 15,
@@ -626,7 +625,7 @@ local WM = Window:Watermark({
     RichText = true,
 })
 
-WM:SetText("Boreal | <font transparency=\"0.2\">Build 241</font>")
+WM:SetText("Shiny | <font transparency=\"0.2\">Build 241</font>")
 WM:SetOpacity(0.7)
 WM:SetPosition("bottom-left")
 WM:SetPosition(UDim2.new(0.5, 0, 0, 24))
